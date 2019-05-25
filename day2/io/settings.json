@@ -1,0 +1,53 @@
+{
+    "workbench.startupEditor": "none",
+    "window.menuBarVisibility": "hidden",
+    "workbench.iconTheme": "vscode-simpler-icons",
+    "workbench.colorTheme": "Shades of Purple",
+    "editor.fontSize": 18,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.rulers": [
+        80
+    ],
+    "terminal.integrated.fontSize": 18,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/.vscode": true,
+        "**/.gitignore": true
+    },
+    // python设置
+    "python.linting.pep8Enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pydocstyleEnabled": true,
+    "python.formatting.provider": "yapf",
+    "python.linting.pydocstyleArgs": [
+        "--ignore=D203, D210, D213, D202",
+    ],
+    // "python.testing.unittestEnabled": true,
+    // "python.testing.unittestArgs": [
+    //     "-v",
+    //     "-s",
+    //     ".",
+    //     "-p",
+    //     "*test*.py"
+    // ],
+    // "python.linting.flake8Args": [
+    //     "--ignore=F401",
+    // ],
+    "breadcrumbs.enabled": true,
+    "http.proxy": "http://127.0.0.1:1080",
+    "git.autofetch": true,
+    // golang配置
+    "go.testFlags": [
+        "-v"
+    ],
+}
